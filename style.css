@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+main{
+    background-color: black;
+    width: 900px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+.slide{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+}
+button{
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    
+}
+img{
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
